@@ -1,0 +1,143 @@
+body {
+  height: 100vh;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  body .no-padding {
+    padding-left: 0;
+    padding-right: 0; }
+  body #wrapper {
+    margin: 0 auto;
+    height: 100%;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    body #wrapper .nav-side-menu {
+      overflow: auto;
+      font-size: 0.75rem;
+      font-weight: 200;
+      top: 0;
+      height: 100%;
+      color: #e1ffff;
+      background-color: #066a38; }
+      body #wrapper .nav-side-menu .toggle-btn {
+        display: none; }
+      body #wrapper .nav-side-menu .main-logo img {
+        width: 100%; }
+      body #wrapper .nav-side-menu #menu-content {
+        padding-left: 0;
+        margin-top: 20px; }
+        body #wrapper .nav-side-menu #menu-content .sub-menu {
+          padding-left: 0; }
+      body #wrapper .nav-side-menu .language-select .btn-link {
+        position: relative;
+        text-decoration: none;
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.7);
+        cursor: pointer;
+        font-size: 0.75rem;
+        padding: 3px 5px 0 5px; }
+        body #wrapper .nav-side-menu .language-select .btn-link:after {
+          display: block;
+          content: '';
+          border-bottom: solid 1px #fff;
+          transform: scaleX(0);
+          transition: transform 250ms ease-in-out;
+          transform-origin: 100% 50%; }
+        body #wrapper .nav-side-menu .language-select .btn-link:hover:after {
+          transform: scaleX(1);
+          transform-origin: 0 50%;
+          color: #fff; }
+        body #wrapper .nav-side-menu .language-select .btn-link:first-child {
+          margin-left: 40px;
+          border-right: 1px solid #fff; }
+      body #wrapper .nav-side-menu .language-select .active {
+        color: #fff; }
+      body #wrapper .nav-side-menu li a {
+        margin-left: 10px;
+        text-decoration: none;
+        color: #ffffff; }
+        body #wrapper .nav-side-menu li a i {
+          text-decoration: none;
+          color: #ffffff; }
+        body #wrapper .nav-side-menu li a:hover a {
+          color: #8dbf4c; }
+      body #wrapper .nav-side-menu li:hover {
+        background: rgba(0, 0, 0, 0.2);
+        color: #8dbf4c;
+        -webkit-transition: all 1s ease;
+        -moz-transition: all 1s ease;
+        -o-transition: all 1s ease;
+        -ms-transition: all 1s ease;
+        transition: all 1s ease; }
+    body #wrapper .nav-side-menu
+    .nav-side-menu ul,
+    body #wrapper .nav-side-menu li {
+      list-style: none;
+      padding: 0px;
+      margin: 0px;
+      line-height: 35px;
+      cursor: pointer;
+    /*
+      .collapsed{
+         .arrow:before{
+                   font-family: FontAwesome;
+                   content: "\f053";
+                   display: inline-block;
+                   padding-left:10px;
+                   padding-right: 10px;
+                   vertical-align: middle;
+                   float:right;
+              }
+       }
+  */ }
+    body #wrapper .nav-side-menu ul :not(collapsed) .arrow:before,
+    body #wrapper .nav-side-menu li :not(collapsed) .arrow:before {
+      content: "\f078";
+      display: inline-block;
+      padding-left: 10px;
+      padding-right: 10px;
+      vertical-align: middle;
+      float: right; }
+    body #wrapper .nav-side-menu ul .active,
+    body #wrapper .nav-side-menu li .active {
+      background-color: #4f5b69; }
+    body #wrapper .nav-side-menu ul .sub-menu li,
+    body #wrapper .nav-side-menu li .sub-menu li {
+      border: none;
+      line-height: 28px;
+      margin-left: 0px; }
+      body #wrapper .nav-side-menu ul .sub-menu li .active,
+      body #wrapper .nav-side-menu ul .sub-menu li .active a,
+      body #wrapper .nav-side-menu li .sub-menu li .active,
+      body #wrapper .nav-side-menu li .sub-menu li .active a {
+        color: #d19b3d; }
+      body #wrapper .nav-side-menu ul .sub-menu li :before,
+      body #wrapper .nav-side-menu li .sub-menu li :before {
+        content: "\f105";
+        display: inline-block;
+        padding-left: 10px;
+        padding-right: 10px;
+        vertical-align: middle; }
+
+@media (max-width: 767px) {
+  .nav-side-menu {
+    position: relative;
+    margin-bottom: 10px; }
+
+  .nav-side-menu .toggle-btn {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 10 !important;
+    padding: 3px 3px 0 3px;
+    background-color: #ffffff;
+    color: #000;
+    width: 40px;
+    text-align: center; } }
+@media (min-width: 767px) {
+  .nav-side-menu .menu-list .menu-content {
+    display: block; } }
+
+/*# sourceMappingURL=styles.css.map */
