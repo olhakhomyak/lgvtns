@@ -2,13 +2,13 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { AlertModule } from 'ng2-bootstrap';
 
 import { AppComponent } from './app.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { NavigationMenuComponent } from './partials/navigation-menu/navigation-menu.component';
 import { TRANSLATION_PROVIDERS, TranslatePipe, TranslateService } from './translate';
-import { BenefitsImagesComponent } from './main-page/benefits-images/benefits-images.component';
+import { NewsBlockComponent } from './main-page/news-block.component';
+import {MainContentService} from "./main-page/main-content.service";
 
 @NgModule({
   declarations: [
@@ -16,15 +16,14 @@ import { BenefitsImagesComponent } from './main-page/benefits-images/benefits-im
     MainPageComponent,
     NavigationMenuComponent,
     TranslatePipe,
-    BenefitsImagesComponent
+    NewsBlockComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule,
-    AlertModule.forRoot()
+    HttpModule
   ],
-  providers: [ TRANSLATION_PROVIDERS, TranslateService],
+  providers: [ TRANSLATION_PROVIDERS, TranslateService, MainContentService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
