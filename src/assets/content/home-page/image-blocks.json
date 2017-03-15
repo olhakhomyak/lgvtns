@@ -1,32 +1,31 @@
-[
-  {
-    "title": "LAYOUT DESIGN OPTIMIZER",
-    "description": "The world´s first tool that automatically creates an optimized layout in 3D",
-    "img-src": ""
-  },
-  {
-    "title": "STANDARD TIMES",
-    "description": "e.g. based on MTM / MOST components or Video-Based Process Studies",
-    "img-src": ""
-  },
-  {
-    "title": null,
-    "description": "jnjnjn",
-    "img-src": ""
-  },
-  {
-    "title": null,
-    "description": "Logistics Network Optimization and user friendly Supply Chain Design & Controlling based on google maps",
-    "img-src": ""
-  },
-  {
-    "title": "ADVANCED MATHEMATICAL OPTIMIZATION ALGORITHMS",
-    "description": "In W2MO allow significant productivity increases",
-    "img-src": ""
-  },
-  {
-    "title": "SIGN UP AND START!",
-    "description": "W2MO can be used immediately out of",
-    "img-src": ""
-  }
+[{
+        "title": "LAYOUT DESIGN OPTIMIZER",
+        "description": "The world´s first tool that automatically creates an optimized layout in 3D",
+        "imgSrc": "../../../assets/img/layout_design_optimizer.jpg"
+    },
+    {
+        "title": "STANDARD TIMES",
+        "description": "e.g. based on MTM / MOST components or Video-Based Process Studies",
+        "imgSrc": "../../../assets/img/main-page-feature-right.jpg"
+    },
+    {
+        "title": null,
+        "description": null,
+        "imgSrc": "../../../assets/img/vwtag-en.jpg"
+    },
+    {
+        "title": null,
+        "description": "Logistics Network Optimization and user friendly Supply Chain Design & Controlling based on google maps",
+        "imgSrc": "../../../assets/img/lno-laptops-right.jpg"
+    },
+    {
+        "title": "ADVANCED MATHEMATICAL OPTIMIZATION ALGORITHMS",
+        "description": "In W2MO allow significant productivity increases",
+        "imgSrc": "../../../assets/img/main-page-feature-bottom-left.jpg"
+    },
+    {
+        "title": "SIGN UP AND START!",
+        "description": "W2MO can be used immediately out of",
+        "imgSrc": "../../../assets/img/green_bg.jpg"
+    }
 ]

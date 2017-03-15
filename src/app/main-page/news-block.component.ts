@@ -4,9 +4,11 @@ import { MainContentService } from './main-content.service';
 @Component({
   selector: 'news-block',
   template: `
-    <p *ngFor="let item of news" class="col-md-6" style="background-color: #4f5b69">
-      {{item.title}}
-    </p>
+  <div class="row">
+        <div *ngFor="let item of news" class="col-md-6 no-padding" style="height: 33.3vh" >
+            <img class="img-responsive" [src]="item.imgSrc" style="height: 100%; width: 100%">
+        </div>
+      </div>
   `
 })
 export class NewsBlockComponent implements OnInit {

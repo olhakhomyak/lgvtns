@@ -5,7 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { MainPageComponent } from './main-page/main-page.component';
-import { NavigationMenuComponent } from './partials/navigation-menu/navigation-menu.component';
+import { NavigationMenuComponent } from './navigation-menu/navigation-menu.component';
 import { TRANSLATION_PROVIDERS, TranslatePipe, TranslateService } from './translate';
 import { NewsBlockComponent } from './main-page/news-block.component';
 import {MainContentService} from "./main-page/main-content.service";

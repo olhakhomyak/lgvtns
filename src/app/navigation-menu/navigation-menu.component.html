@@ -1,0 +1,222 @@
+<div class="nav-side-menu">
+    <div class="main-logo" style="padding: 20px">
+        <img src="../../../assets/img/logivations-logo-nobg2.png" alt="Logivations" class="img-responsive">
+    </div>
+
+    <div class="menu-items">
+        <i class="fa fa-bars fa-2x toggle-btn" data-toggle="collapse" data-target="#menu-content">
+        </i>
+        <div class="menu-list">
+
+            <ul id="menu-content" class="menu-content collapse out">
+                <li>
+                    <a href="#">
+                        {{ 'home'  | translate | uppercase }}
+                    </a>
+                </li>
+                <li data-toggle="collapse" data-target="#solutions" class="collapsed">
+                    <a href="#">
+                        {{ 'solutions'  | translate | uppercase }}
+                    </a>
+                </li>
+                <ul class="sub-menu collapse" id="solutions">
+                    <li>
+                        <a href="#">
+                                {{ 'enrich_sap'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'supply_chain_design_controlling'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'layout_design_optimizer'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'planning_optimization'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'product_logistics'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'product_placement'  | translate }}
+                            </a>
+                    </li>
+                    <li *ngIf="isCurrentLang('de')">
+                        <a href="#">
+                                {{ 'deep_machine_learning'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'tour_building'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'case_pack_optimization'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'tour_building'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'workforce_planning'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'process_studies'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'activity_based_costing'  | translate }}
+                            </a>
+                    </li>
+                </ul>
+                <li data-toggle="collapse" data-target="#consulting" class="collapsed">
+                    <a href="#">
+                        {{ 'consulting'  | translate | uppercase }}
+                    </a>
+                </li>
+                <ul class="sub-menu collapse" id="consulting" *ngIf="isCurrentLang('en')">
+                    <li>
+                        <a href="#">
+                                {{ 'introduction_to_w2mo'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'simulation'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'network_optimization'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'it_demands'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'logistics_planning'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'costs_simulation'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'process_model'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'expert_seminars'  | translate }}
+                            </a>
+                    </li>
+                </ul>
+                <ul class="sub-menu collapse" id="consulting" *ngIf="isCurrentLang('de')">
+                    <li>
+                        <a href="#">
+                                {{ 'konzeption_neuplanung'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'optimierung_und_simulation'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'software_implementierung'  | translate }}
+                            </a>
+                    </li>
+                </ul>
+                <li data-toggle="collapse" data-target="#news_events" class="collapsed">
+                    <a href="#">
+                        {{ 'news_events'  | translate | uppercase }}
+                    </a>
+                </li>
+                <ul class="sub-menu collapse" id="news_events">
+                    <li>
+                        <a href="#">
+                                {{ 'free_webinars'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'fairs_events'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'press_news'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'training_seminars'  | translate }}
+                            </a>
+                    </li>
+                </ul>
+                <li data-toggle="collapse" data-target="#company" class="collapsed">
+                    <a href="#">
+                        {{ 'company'  | translate | uppercase }}
+                    </a>
+                </li>
+                <ul class="sub-menu collapse" id="company">
+                    <li>
+                        <a href="#">
+                                {{ 'locations'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'strategic_development_partners'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'consulting_implementation_partners'  | translate }}
+                            </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                                {{ 'career'  | translate }}
+                            </a>
+                    </li>
+                </ul>
+                <li>
+                    <a href="#">
+                        {{ 'software_w2mo'  | translate | uppercase }}
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="btn-group fixed-bottom language-select">
+        <button *ngFor="let lang of supportedLanguages" (click)="selectLang(lang.value)" class="btn btn-link" [class.active]="isCurrentLang(lang.value)">
+            {{ lang.display }}
+        </button>
+    </div>
+
+</div>

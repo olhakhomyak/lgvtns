@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {TranslateService} from '../../translate';
+import {TranslateService} from '../translate';
 
 @Component({
   selector: 'app-navigation-menu',
