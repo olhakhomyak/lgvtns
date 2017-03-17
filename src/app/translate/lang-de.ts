@@ -38,4 +38,8 @@ export const LANG_DE_TRANS = {
     'strategic_development_partners': 'Strategische Entwicklungspartner',
     'consulting_implementation_partners': 'Consulting- und Implementierungspartner',
     'career': 'Karriere',
+
+
+    //MAIN PAGE
+    'read_more': 'Weiterlesen',
 };

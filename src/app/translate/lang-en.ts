@@ -42,4 +42,7 @@ export const LANG_EN_TRANS = {
     'strategic_development_partners': 'Strategic Development Partners',
     'consulting_implementation_partners': 'Consulting and Implementation Partners',
     'career': 'Career',
+
+    //MAIN PAGE
+    'read_more': 'Read more',
 };

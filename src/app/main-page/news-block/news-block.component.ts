@@ -1,15 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { MainContentService } from './main-content.service';
+import { MainContentService } from '../main-content.service';
 
 @Component({
   selector: 'news-block',
-  template: `
-  <div class="row">
-        <div *ngFor="let item of news" class="col-md-6 no-padding" style="height: 33.3vh" >
-            <img class="img-responsive" [src]="item.imgSrc" style="height: 100%; width: 100%">
-        </div>
-      </div>
-  `
+  templateUrl: './news-block.component.html',
+  styleUrls: ['./news-block.styles.scss']
 })
 export class NewsBlockComponent implements OnInit {
   news = [];

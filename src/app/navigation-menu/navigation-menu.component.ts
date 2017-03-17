@@ -7,7 +7,6 @@ import {TranslateService} from '../translate';
 })
 export class NavigationMenuComponent implements OnInit{
 
-  // public translatedText: string;
   public supportedLanguages: any[];
 
   constructor(private _translate: TranslateService) { }

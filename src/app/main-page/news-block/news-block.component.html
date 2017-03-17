@@ -1,0 +1,20 @@
+<div class="row">
+    <div *ngFor="let item of news" class="col-md-6 no-padding grid">
+        <figure class="hover-effect">
+            <img class="img-responsive" [src]="item.imgSrc" [alt]="item.title" />
+            <figcaption>
+                <h2>
+                    <span class="title-bg" *ngIf="item.title">{{item.title}}</span>
+                </h2>
+                <p *ngIf="item.description">
+                    {{item.description}}
+                </p>
+                <p *ngIf="!item.description" class="read-more-btn">
+                    <span class="title-bg">
+                        {{'read_more' | translate }} <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                </p>
+            </figcaption>
+        </figure>
+    </div>
+</div>
