@@ -1,5 +1,7 @@
-import {Component, OnInit} from '@angular/core';
-import {TranslateService} from '../translate';
+import { Component, OnInit } from '@angular/core';
+
+import { MainContentService } from '../main-page/main-content.service';
+import { TranslateService } from '../translate';
 
 @Component({
   selector: 'app-navigation-menu',
@@ -9,7 +11,7 @@ export class NavigationMenuComponent implements OnInit{
 
   public supportedLanguages: any[];
 
-  constructor(private _translate: TranslateService) { }
+  constructor(private _translate: TranslateService, private _mainContent: MainContentService) { }
 
   ngOnInit() {
     this.supportedLanguages = [
@@ -26,5 +28,6 @@ export class NavigationMenuComponent implements OnInit{
 
   selectLang(lang: string) {
     this._translate.use(lang);
+    this._mainContent.use(lang);
   }
 }

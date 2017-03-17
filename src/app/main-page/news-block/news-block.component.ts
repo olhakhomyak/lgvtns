@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { MainContentService } from '../main-content.service';
+import { TranslateService } from '../../translate';
 
 @Component({
   selector: 'news-block',
